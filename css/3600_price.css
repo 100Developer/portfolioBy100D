@@ -1,0 +1,49 @@
+html{font-size:14px;}
+section.D3_price_wrap{width:100%; height:auto; margin:10rem 0 5rem 0;}
+section.D3_price_wrap div.content{width:1200px; height:auto; margin:0 auto;}
+section.D3_price_wrap div.content ul.price_tab{width:100%; height:auto; text-align:center;}
+section.D3_price_wrap div.content ul.price_tab li{display:inline-block; width:15rem;}
+section.D3_price_wrap div.content ul.price_tab li a{position:relative; display:block; width:15rem; height:3.5rem; line-height:3.5rem; background:#ecf0f1; font-size:1.5rem; z-index:1;}
+section.D3_price_wrap div.content ul.price_tab li a:after{content:""; position:absolute; width:100%; left:0; bottom:100%; height:0; background:#2d71e4; transition-property:height; transition-duration:200ms;}
+section.D3_price_wrap div.content ul.price_tab li.on a{background:#fff; margin-right:-4px; box-shadow:4px -10px 15px rgba(0, 0, 0, 0.1); font-weight:bold; color:#333; z-index:2;}
+section.D3_price_wrap div.content ul.price_tab li:hover{font-weight:bold;}
+section.D3_price_wrap div.content ul.price_tab li.on a:after{height:3px;}
+section.D3_price_wrap div.content ul.price_tab li.on:last-child a{margin-right:0; margin-left:-4px; box-shadow:-4px -10px 15px rgba(0, 0, 0, 0.1);}
+section.D3_price_wrap div.content div.P_tab_con{width:100%; padding:3rem; transition:opacity; box-shadow:0 15px 30px rgba(0, 0, 0, 0.1);}
+section.D3_price_wrap div.content div.P_tab_con > ul > li{float:left; width:33.3333%; height:auto; padding:0 3rem; border-right:1px solid #ccc;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li:first-child{padding-left:0;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li:last-child{border-right:0; padding-right:0;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.tit{border-bottom:1px solid #ddd; padding-bottom:1rem; margin-bottom:1rem; font-size:1.8rem; text-align:center; font-family:"NotoKr_L"; color:#2d71e4;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.tit span.eng{display:block; margin-top:0.5rem; font-size:1rem; font-family:"Mont_L"; color:#ccc; letter-spacing:0.1rem;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.tit span.bold{font-family:"NotoKr_M";}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.con ul li{background:#f8f8f8; margin-bottom:1.2rem; padding:1rem; border-radius:3px; text-align:center; font-size:1.5rem;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.con ul li div.name{margin-bottom:0.5rem; font-family:"NotoKr_M";}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.con ul li div.price{position:relative; display:inline-block; font-family:"NotoKr_L"; z-index:2;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.con ul li div.price:before{content:""; position:absolute; bottom:2px; width:100%; height:6px; background:rgba(45, 113, 228, 0.15); z-index:-1;}
+section.D3_price_wrap div.content div.P_tab_con > ul > li div.con ul li div.priceBig{font-size:2rem; font-family:"NotoKr_M";}
+section.D3_price_wrap div.content div.P_tab_con div.inf{width:100%; height:auto; text-align:center; font-family:"NotoKr_L";}
+section.D3_price_wrap div.content div.P_tab_con div.inf div.vat{margin-top:2rem; color:#888;}
+section.D3_price_wrap div.content div.P_tab_con div.inf div.vat > span{font-family:"NotoKr_M"; text-decoration:underline;}
+section.D3_price_wrap div.content div.P_tab_con div.inf div.page{margin-top:2rem; font-size:2rem;}
+section.D3_price_wrap div.content div.P_tab_con div.inf div.page span.txt01{font-family:"NotoKr_M";}
+
+@media screen and (max-width:1280px){
+	section.D3_price_wrap div.content{width:90%;}
+}
+
+@media screen and (max-width:768px){
+	section.D3_price_wrap{margin:5rem 0 2rem 0;}
+	section.D3_price_wrap div.content ul.price_tab li{float:left; width:50%;}
+	section.D3_price_wrap div.content ul.price_tab li a{width:100%;}
+	section.D3_price_wrap div.content div.P_tab_con{padding:2rem;}
+	section.D3_price_wrap div.content div.P_tab_con > ul > li{float:none; width:100%; padding:0; border-right:0; margin-bottom:3rem;}
+	section.D3_price_wrap div.content div.P_tab_con > ul > li div.tit{background:#2d71e4; color:#fff; padding:1rem; border-bottom:0; margin-bottom:0;}
+	section.D3_price_wrap div.content div.P_tab_con > ul > li div.con ul li{background:#fff; border-bottom:1px solid #ddd; margin-bottom:0; padding:1.5rem;}
+	/*section.D3_price_wrap div.content div.P_tab_con div.inf{font-size:1.5rem;}*/
+}
+
+@media screen and (max-width:425px){
+	html{font-size:13px;}
+	/*section.D3_price_wrap div.content div.P_tab_con div.inf > span{display:block;}*/
+	/*section.D3_price_wrap div.content div.P_tab_con div.inf > span.txt03{font-size:1rem;}*/
+}

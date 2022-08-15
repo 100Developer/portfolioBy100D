@@ -1,0 +1,158 @@
+div.store{
+  position: fixed;
+  width: 70px;
+  margin-top:5rem;
+  height: calc(50% - 5rem);
+  top: 0;
+  right: 0;
+  z-index:99;
+  display: none;
+  box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+.fab {
+  color: #666;
+  width: 500px;
+
+  height: 100%;
+  text-align: right;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 0px 4px 4px 0px;
+  background-color: #f6f3f2;
+  transition: all 0.3s ease-in-out;
+   box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    z-index:999999;
+	display: block;
+  position: relative;
+  right: 0px;
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.fab:hover {
+  transform: translatex(-430px);
+   z-index:999999;
+}
+
+div.price{
+  position: fixed;
+  width: 70px;
+  height: 50%;  
+  background: #e4dcd3;
+  border: 0;
+  right: 0px;
+  bottom: 0px;
+  z-index:99;
+  display: none;
+ box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 6px;
+}
+
+body {
+  height: 1200px;
+}
+
+
+button, .btn, #drawer .drawer__header .close {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  background: deepskyblue; 
+  color: #fff;
+  display: block;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 0;
+  padding: .5em .75em;
+  width: auto;
+  transition: all .3s;
+  float: right;
+}
+button:hover, .btn:hover, #drawer .drawer__header .close:hover {
+  background: #007399;
+  cursor: pointer;
+}
+
+#drawer {
+  background: snow;
+  position: fixed;
+  z-index:999999;
+
+  bottom:0px;
+  right: -100%;
+  width: calc(100% - 100px);
+  height: calc(100% - 5rem);
+   box-shadow:rgba(0, 0, 0, 0.1) 0px 10px 15px;
+  
+}
+/*
+#drawer .drawer__header, #drawer .drawer__content {
+  padding: 25px 50px;
+}
+*/
+#drawer .drawer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#drawer .drawer__header h2 {
+  margin: 0;
+}
+#drawer .drawer__header .close {
+  display: inline;
+  line-height: 1em;
+}
+#drawer.on {
+  -webkit-animation: slideIn .5s ease-in-out both;
+          animation: slideIn .5s ease-in-out both;
+}
+#drawer.off {
+  -webkit-animation: slideOut .5s ease-in-out both;
+          animation: slideOut .5s ease-in-out both;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    right: -100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+@-webkit-keyframes slideOut {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -100%;
+  }
+}
+@keyframes slideOut {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -100%;
+  }
+}
+.site-main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: calc(100vh - 200px);
+  margin: 0;
+  text-align: center;
+}
+
+footer div.ft{ display:none;}
+
+div.talk_btn{ right:0.42rem;}

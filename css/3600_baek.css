@@ -1,0 +1,230 @@
+html {
+    font-size: 14px;
+}
+div.baek_wrap{ width:100%; height:auto; background:#436efd; overflow-x:hidden;}
+section.contents_baek{width:1200px; height:auto; background:#436efd; padding:3.5rem 5rem; padding-top:10rem; margin:0rem auto 0 auto; box-shadow:0 0 35px rgba(0, 0, 0, 0.18);}
+section.contents_baek div.con_01{width:100%; height:auto;}
+
+
+
+/*추가*/
+section.contents_baek div.con_02{margin-top:15rem;}
+section.contents_baek div.con_02 div.proc{width:100%; height:auto;}
+section.contents_baek div.con_02 div.proc > div{float:left; width:30%; color:#fff; height:20rem; line-height:2.5rem; padding:2.15rem; padding-top:14.5rem; border-radius:5px; text-align:center; font-size:1.7rem; letter-spacing:0.1rem;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(1){background:#f8f8fa url("../img/D3600_baek_img0201.png") center 25px no-repeat; background-size:55%;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(2){background:#f8f8fa url("../img/D3600_baek_img0202.png") center 25px no-repeat; background-size:55%; margin:0 5%;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(3){background:#f8f8fa url("../img/D3600_baek_img0203.png") center 25px no-repeat; background-size:55%;}
+
+
+section.contents_baek div.con_01 img.con_03_txt_bg01{position:absolute; z-index: 1; top:-49%; left:16%; width: 94%; height:auto}
+section.contents_baek div.con_01 img.con_03_txt_bg02{position:absolute; z-index: 3; top:-46%; right:-3%;  width: 46%; height:auto}
+section.contents_baek div.con_02 div.txt{width:100%; height:auto; line-height:3.5rem; color:#fff; margin:8rem 0rem; text-align:center; font-size:1.7rem; letter-spacing:0.2rem;}
+section.contents_baek div.con_02 div.txt span{font-size:12px; line-height:1.8rem;}
+
+
+section.contents_baek div.con_01 h1.title_3600{line-height:5.5rem; margin-top:0; padding:0; background:none; text-align:left; font-weight:100; letter-spacing:5px;}
+section.contents_baek div.con_01 h1.title_3600:after{display:none;}
+
+
+section.contents_baek div.con_01 h1.tit_3600{ color:#fff; text-align:left; font-size:3rem; font-weight:bold; letter-spacing:5px; line-height:4.5rem; margin-bottom:4rem;}
+section.contents_baek div.con_01 h1.title_3600{ color:#fff; line-height:2.2rem; font-size:1.8rem; margin-bottom:0rem; border-left:3px solid #fff; padding-left:2rem;}
+
+section.contents_baek div.con_03{position:relative;}
+section.contents_baek div.con_03 div.con_03_txt{background:#fff; border-radius:5px; width:50%; word-break:keep-all; margin-top: 1%; margin-left: 0%; height:auto; box-shadow:0 0 35px rgba(0, 0, 0, 0.18); position:relative; z-index: 2; padding:2rem 3rem; line-height: 2.8rem; font-size: 1.4rem;}
+section.contents_baek div.con_03 div.con_03_txt > span{display:inline-block; border-left:3px solid #271e6f; padding-left:2rem; color:#333333;}
+
+section.contents_baek div.con_03 img.con_03_img01{width:50%;}
+
+div.store{}
+
+
+
+div.store div.arrow{position:absolute; bottom:15px; left:15px; width:40px; height:40px; background:#1036e1;}
+div.store a img.store_img01{position:absolute; top:31px; left:13px;}
+div.store a img.store_img02{ width:50%; margin-top:25%; margin-right:20%; height:auto;}
+div.store a img.store_img03{width:250px; height:auto; margin-top:30px;}
+div.store a img.store_img04{position:absolute; top:8px; right:35px; width:15%; height:auto;}
+div.store a img.store_img05{width:150px; height:auto;}
+
+div.store div.request{ position:absolute; bottom:15px; padding-top:8px; padding-right:35px; right:230px; width:140px; height:40px; background:#1036e1; color:#fff;}
+div.store div.qrcode{ position:absolute; bottom:15px; padding-top:5px; padding-right:35px; right:5px; width:140px; height:40px; border:2px solid #555; color:#555;}
+
+section.contents_baek div.price{}
+
+div.price img.price_img01{ width:80%; margin-top:20%; margin-right:10%; height:auto;}
+div.price img.price_img02{position:absolute; top:90px; left:13px;}
+
+
+/*추가*/
+
+
+@media screen and (max-width:1600px){
+
+}
+
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:1024px){
+div.store{margin-top:4rem !important; height:calc(50% - 4rem) !important;}
+
+section.contents_baek{width:100%; overflow-x:hidden; }
+section.contents_baek div.con_02 div.proc > div:nth-of-type(1){ background:#f8f8fa url("../img/D3600_baek_img0201.png") center -50px no-repeat; background-size:cover;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(2){ background:#f8f8fa url("../img/D3600_baek_img0202.png") center -50px no-repeat; background-size:cover;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(3){ background:#f8f8fa url("../img/D3600_baek_img0203.png") center -50px no-repeat; background-size:cover;}
+
+}
+
+@media screen and (max-width:768px){
+div.store{ display:none !important; }
+div.price{ display:none !important; }
+
+section.contents_baek div.con_03 div.con_03_txt{font-size: 1rem;}
+section.contents_baek div.con_01 img.con_03_txt_bg01{top:-7%;}
+section.contents_baek div.con_01 img.con_03_txt_bg02{ width:50%; top:-14%; right:-8%;}
+section.contents_baek div.con_02 div.txt{ font-size:1.4rem;}
+
+section.contents_baek div.con_02{margin-top:11rem;}
+section.contents_baek div.con_02 div.proc > div{ font-size:1.5rem;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(1){ background:#f8f8fa url("../img/D3600_baek_img0201.png") center 0px no-repeat; background-size:cover;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(2){ background:#f8f8fa url("../img/D3600_baek_img0202.png") center 0px no-repeat; background-size:cover;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(3){ background:#f8f8fa url("../img/D3600_baek_img0203.png") center 0px no-repeat; background-size:cover;}
+
+section.contents_baek div.con_02 div.txt{ margin:4rem 0rem;}
+}
+
+@media screen and (max-width:425px){
+section.contents_baek{ padding:1.5rem 3.5rem; padding-top:5rem; }
+section.contents_baek div.con_01 h1.tit_3600{font-size: 1.5rem; line-height:2.5rem; }
+section.contents_baek div.con_03 div.con_03_txt{ width:100%; padding:1.5rem 2rem; padding-right:9rem; line-height: 2rem;}
+
+section.contents_baek div.con_01 img.con_03_txt_bg01{ width:85%; top:-26%; left:46%;}
+section.contents_baek div.con_01 img.con_03_txt_bg02{ width:60%; top:9%; right:-19%;}
+
+section.contents_baek div.con_02{ margin-top:5rem;}
+
+section.contents_baek div.con_02 div.proc > div{ width:80%; margin:5% 10%; padding-top:2.5rem; color:#555;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(1){ color:#f8f8f8;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(2){width:80%; margin:5% 10%;}
+
+section.contents_baek div.con_02 div.txt{ font-size:1rem; line-height:2rem;}
+section.contents_baek div.con_02 div.txt span{ font-size:10px; line-height:1.8rem; letter-spacing:1px;}
+div.talk_btn{right:1.42rem;}
+}
+
+@media screen and (max-width:375px){
+section.contents_baek{ padding:1.5rem 3.5rem; padding-top:5rem; }
+section.contents_baek div.con_01 h1.tit_3600{font-size: 1.5rem; line-height:2.5rem; margin-bottom:2rem; letter-spacing:1px;}
+section.contents_baek div.con_03 div.con_03_txt{ width:100%; padding:1.5rem 2rem; padding-right:7rem; line-height: 2rem;}
+
+section.contents_baek div.con_01 img.con_03_txt_bg01{ width:85%; top:-26%; left:46%;}
+section.contents_baek div.con_01 img.con_03_txt_bg02{ width:67%; top:9%; right:-31%;}
+
+section.contents_baek div.con_02{ margin-top:5rem;}
+
+section.contents_baek div.con_02 div.proc > div{ width:80%; margin:5% 10%; padding-top:2.5rem; color:#555;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(1){ color:#f8f8f8;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(2){width:80%; margin:5% 10%;}
+
+section.contents_baek div.con_02 div.txt{ font-size:1rem; line-height:2rem;}
+section.contents_baek div.con_02 div.txt span{ font-size:10px; line-height:1.8rem; letter-spacing:1px;}
+}
+
+@media screen and (max-width:320px){
+section.contents_baek{ padding:1.5rem 2rem; padding-top:5rem; }
+section.contents_baek div.con_01 h1.tit_3600{font-size: 1.3rem; line-height:2.5rem; margin-bottom:2rem; letter-spacing:1px;}
+section.contents_baek div.con_03 div.con_03_txt{ width:100%; padding:1.5rem 2rem; padding-right:7rem; line-height: 2rem;}
+
+section.contents_baek div.con_01 img.con_03_txt_bg01{ width:85%; top:-26%; left:46%;}
+section.contents_baek div.con_01 img.con_03_txt_bg02{ width:67%; top:19%; right:-25%;}
+
+section.contents_baek div.con_01 h1.title_3600{ font-size:1.5rem; padding-left:1rem;}
+
+section.contents_baek div.con_02{ margin-top:5rem;}
+
+section.contents_baek div.con_02 div.proc > div{ width:80%; margin:5% 10%; padding-top:2.5rem; color:#555;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(1){ color:#f8f8f8;}
+section.contents_baek div.con_02 div.proc > div:nth-of-type(2){width:80%; margin:5% 10%;}
+
+section.contents_baek div.con_02 div.txt{ font-size:1rem; line-height:2rem;}
+section.contents_baek div.con_02 div.txt span{ font-size:10px; line-height:1.8rem; letter-spacing:0px;}
+
+section.contents_baek div.con_03 div.con_03_txt > span{padding-left:1rem;}
+}
+
+
+/* scroll.css */
+[data-aos][data-aos][data-aos-duration="50"],body[data-aos-duration="50"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay="50"],body[data-aos-delay="50"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="50"].aos-animate,body[data-aos-delay="50"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration="100"],body[data-aos-duration="100"] [data-aos]{transition-duration:.1s}[data-aos][data-aos][data-aos-delay="100"],body[data-aos-delay="100"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="100"].aos-animate,body[data-aos-delay="100"] [data-aos].aos-animate{transition-delay:.1s}[data-aos][data-aos][data-aos-duration="150"],body[data-aos-duration="150"] [data-aos]{transition-duration:.15s}[data-aos][data-aos][data-aos-delay="150"],body[data-aos-delay="150"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="150"].aos-animate,body[data-aos-delay="150"] [data-aos].aos-animate{transition-delay:.15s}[data-aos][data-aos][data-aos-duration="200"],body[data-aos-duration="200"] [data-aos]{transition-duration:.2s}[data-aos][data-aos][data-aos-delay="200"],body[data-aos-delay="200"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="200"].aos-animate,body[data-aos-delay="200"] [data-aos].aos-animate{transition-delay:.2s}[data-aos][data-aos][data-aos-duration="250"],body[data-aos-duration="250"] [data-aos]{transition-duration:.25s}[data-aos][data-aos][data-aos-delay="250"],body[data-aos-delay="250"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="250"].aos-animate,body[data-aos-delay="250"] [data-aos].aos-animate{transition-delay:.25s}[data-aos][data-aos][data-aos-duration="300"],body[data-aos-duration="300"] [data-aos]{transition-duration:.3s}[data-aos][data-aos][data-aos-delay="300"],body[data-aos-delay="300"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="300"].aos-animate,body[data-aos-delay="300"] [data-aos].aos-animate{transition-delay:.3s}[data-aos][data-aos][data-aos-duration="350"],body[data-aos-duration="350"] [data-aos]{transition-duration:.35s}[data-aos][data-aos][data-aos-delay="350"],body[data-aos-delay="350"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="350"].aos-animate,body[data-aos-delay="350"] [data-aos].aos-animate{transition-delay:.35s}[data-aos][data-aos][data-aos-duration="400"],body[data-aos-duration="400"] [data-aos]{transition-duration:.4s}[data-aos][data-aos][data-aos-delay="400"],body[data-aos-delay="400"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="400"].aos-animate,body[data-aos-delay="400"] [data-aos].aos-animate{transition-delay:.4s}[data-aos][data-aos][data-aos-duration="450"],body[data-aos-duration="450"] [data-aos]{transition-duration:.45s}[data-aos][data-aos][data-aos-delay="450"],body[data-aos-delay="450"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="450"].aos-animate,body[data-aos-delay="450"] [data-aos].aos-animate{transition-delay:.45s}[data-aos][data-aos][data-aos-duration="500"],body[data-aos-duration="500"] [data-aos]{transition-duration:.5s}[data-aos][data-aos][data-aos-delay="500"],body[data-aos-delay="500"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="500"].aos-animate,body[data-aos-delay="500"] [data-aos].aos-animate{transition-delay:.5s}[data-aos][data-aos][data-aos-duration="550"],body[data-aos-duration="550"] [data-aos]{transition-duration:.55s}[data-aos][data-aos][data-aos-delay="550"],body[data-aos-delay="550"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="550"].aos-animate,body[data-aos-delay="550"] [data-aos].aos-animate{transition-delay:.55s}[data-aos][data-aos][data-aos-duration="600"],body[data-aos-duration="600"] [data-aos]{transition-duration:.6s}[data-aos][data-aos][data-aos-delay="600"],body[data-aos-delay="600"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="600"].aos-animate,body[data-aos-delay="600"] [data-aos].aos-animate{transition-delay:.6s}[data-aos][data-aos][data-aos-duration="650"],body[data-aos-duration="650"] [data-aos]{transition-duration:.65s}[data-aos][data-aos][data-aos-delay="650"],body[data-aos-delay="650"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="650"].aos-animate,body[data-aos-delay="650"] [data-aos].aos-animate{transition-delay:.65s}[data-aos][data-aos][data-aos-duration="700"],body[data-aos-duration="700"] [data-aos]{transition-duration:.7s}[data-aos][data-aos][data-aos-delay="700"],body[data-aos-delay="700"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="700"].aos-animate,body[data-aos-delay="700"] [data-aos].aos-animate{transition-delay:.7s}[data-aos][data-aos][data-aos-duration="750"],body[data-aos-duration="750"] [data-aos]{transition-duration:.75s}[data-aos][data-aos][data-aos-delay="750"],body[data-aos-delay="750"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="750"].aos-animate,body[data-aos-delay="750"] [data-aos].aos-animate{transition-delay:.75s}[data-aos][data-aos][data-aos-duration="800"],body[data-aos-duration="800"] [data-aos]{transition-duration:.8s}[data-aos][data-aos][data-aos-delay="800"],body[data-aos-delay="800"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="800"].aos-animate,body[data-aos-delay="800"] [data-aos].aos-animate{transition-delay:.8s}[data-aos][data-aos][data-aos-duration="850"],body[data-aos-duration="850"] [data-aos]{transition-duration:.85s}[data-aos][data-aos][data-aos-delay="850"],body[data-aos-delay="850"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="850"].aos-animate,body[data-aos-delay="850"] [data-aos].aos-animate{transition-delay:.85s}[data-aos][data-aos][data-aos-duration="900"],body[data-aos-duration="900"] [data-aos]{transition-duration:.9s}[data-aos][data-aos][data-aos-delay="900"],body[data-aos-delay="900"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="900"].aos-animate,body[data-aos-delay="900"] [data-aos].aos-animate{transition-delay:.9s}[data-aos][data-aos][data-aos-duration="950"],body[data-aos-duration="950"] [data-aos]{transition-duration:.95s}[data-aos][data-aos][data-aos-delay="950"],body[data-aos-delay="950"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="950"].aos-animate,body[data-aos-delay="950"] [data-aos].aos-animate{transition-delay:.95s}[data-aos][data-aos][data-aos-duration="1000"],body[data-aos-duration="1000"] [data-aos]{transition-duration:1s}[data-aos][data-aos][data-aos-delay="1000"],body[data-aos-delay="1000"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1000"].aos-animate,body[data-aos-delay="1000"] [data-aos].aos-animate{transition-delay:1s}[data-aos][data-aos][data-aos-duration="1050"],body[data-aos-duration="1050"] [data-aos]{transition-duration:1.05s}[data-aos][data-aos][data-aos-delay="1050"],body[data-aos-delay="1050"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1050"].aos-animate,body[data-aos-delay="1050"] [data-aos].aos-animate{transition-delay:1.05s}[data-aos][data-aos][data-aos-duration="1100"],body[data-aos-duration="1100"] [data-aos]{transition-duration:1.1s}[data-aos][data-aos][data-aos-delay="1100"],body[data-aos-delay="1100"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1100"].aos-animate,body[data-aos-delay="1100"] [data-aos].aos-animate{transition-delay:1.1s}[data-aos][data-aos][data-aos-duration="1150"],body[data-aos-duration="1150"] [data-aos]{transition-duration:1.15s}[data-aos][data-aos][data-aos-delay="1150"],body[data-aos-delay="1150"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1150"].aos-animate,body[data-aos-delay="1150"] [data-aos].aos-animate{transition-delay:1.15s}[data-aos][data-aos][data-aos-duration="1200"],body[data-aos-duration="1200"] [data-aos]{transition-duration:1.2s}[data-aos][data-aos][data-aos-delay="1200"],body[data-aos-delay="1200"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1200"].aos-animate,body[data-aos-delay="1200"] [data-aos].aos-animate{transition-delay:1.2s}[data-aos][data-aos][data-aos-duration="1250"],body[data-aos-duration="1250"] [data-aos]{transition-duration:1.25s}[data-aos][data-aos][data-aos-delay="1250"],body[data-aos-delay="1250"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1250"].aos-animate,body[data-aos-delay="1250"] [data-aos].aos-animate{transition-delay:1.25s}[data-aos][data-aos][data-aos-duration="1300"],body[data-aos-duration="1300"] [data-aos]{transition-duration:1.3s}[data-aos][data-aos][data-aos-delay="1300"],body[data-aos-delay="1300"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1300"].aos-animate,body[data-aos-delay="1300"] [data-aos].aos-animate{transition-delay:1.3s}[data-aos][data-aos][data-aos-duration="1350"],body[data-aos-duration="1350"] [data-aos]{transition-duration:1.35s}[data-aos][data-aos][data-aos-delay="1350"],body[data-aos-delay="1350"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1350"].aos-animate,body[data-aos-delay="1350"] [data-aos].aos-animate{transition-delay:1.35s}[data-aos][data-aos][data-aos-duration="1400"],body[data-aos-duration="1400"] [data-aos]{transition-duration:1.4s}[data-aos][data-aos][data-aos-delay="1400"],body[data-aos-delay="1400"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1400"].aos-animate,body[data-aos-delay="1400"] [data-aos].aos-animate{transition-delay:1.4s}[data-aos][data-aos][data-aos-duration="1450"],body[data-aos-duration="1450"] [data-aos]{transition-duration:1.45s}[data-aos][data-aos][data-aos-delay="1450"],body[data-aos-delay="1450"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1450"].aos-animate,body[data-aos-delay="1450"] [data-aos].aos-animate{transition-delay:1.45s}[data-aos][data-aos][data-aos-duration="1500"],body[data-aos-duration="1500"] [data-aos]{transition-duration:1.5s}[data-aos][data-aos][data-aos-delay="1500"],body[data-aos-delay="1500"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1500"].aos-animate,body[data-aos-delay="1500"] [data-aos].aos-animate{transition-delay:1.5s}[data-aos][data-aos][data-aos-duration="1550"],body[data-aos-duration="1550"] [data-aos]{transition-duration:1.55s}[data-aos][data-aos][data-aos-delay="1550"],body[data-aos-delay="1550"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1550"].aos-animate,body[data-aos-delay="1550"] [data-aos].aos-animate{transition-delay:1.55s}[data-aos][data-aos][data-aos-duration="1600"],body[data-aos-duration="1600"] [data-aos]{transition-duration:1.6s}[data-aos][data-aos][data-aos-delay="1600"],body[data-aos-delay="1600"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1600"].aos-animate,body[data-aos-delay="1600"] [data-aos].aos-animate{transition-delay:1.6s}[data-aos][data-aos][data-aos-duration="1650"],body[data-aos-duration="1650"] [data-aos]{transition-duration:1.65s}[data-aos][data-aos][data-aos-delay="1650"],body[data-aos-delay="1650"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1650"].aos-animate,body[data-aos-delay="1650"] [data-aos].aos-animate{transition-delay:1.65s}[data-aos][data-aos][data-aos-duration="1700"],body[data-aos-duration="1700"] [data-aos]{transition-duration:1.7s}[data-aos][data-aos][data-aos-delay="1700"],body[data-aos-delay="1700"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1700"].aos-animate,body[data-aos-delay="1700"] [data-aos].aos-animate{transition-delay:1.7s}[data-aos][data-aos][data-aos-duration="1750"],body[data-aos-duration="1750"] [data-aos]{transition-duration:1.75s}[data-aos][data-aos][data-aos-delay="1750"],body[data-aos-delay="1750"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1750"].aos-animate,body[data-aos-delay="1750"] [data-aos].aos-animate{transition-delay:1.75s}[data-aos][data-aos][data-aos-duration="1800"],body[data-aos-duration="1800"] [data-aos]{transition-duration:1.8s}[data-aos][data-aos][data-aos-delay="1800"],body[data-aos-delay="1800"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1800"].aos-animate,body[data-aos-delay="1800"] [data-aos].aos-animate{transition-delay:1.8s}[data-aos][data-aos][data-aos-duration="1850"],body[data-aos-duration="1850"] [data-aos]{transition-duration:1.85s}[data-aos][data-aos][data-aos-delay="1850"],body[data-aos-delay="1850"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1850"].aos-animate,body[data-aos-delay="1850"] [data-aos].aos-animate{transition-delay:1.85s}[data-aos][data-aos][data-aos-duration="1900"],body[data-aos-duration="1900"] [data-aos]{transition-duration:1.9s}[data-aos][data-aos][data-aos-delay="1900"],body[data-aos-delay="1900"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1900"].aos-animate,body[data-aos-delay="1900"] [data-aos].aos-animate{transition-delay:1.9s}[data-aos][data-aos][data-aos-duration="1950"],body[data-aos-duration="1950"] [data-aos]{transition-duration:1.95s}[data-aos][data-aos][data-aos-delay="1950"],body[data-aos-delay="1950"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="1950"].aos-animate,body[data-aos-delay="1950"] [data-aos].aos-animate{transition-delay:1.95s}[data-aos][data-aos][data-aos-duration="2000"],body[data-aos-duration="2000"] [data-aos]{transition-duration:2s}[data-aos][data-aos][data-aos-delay="2000"],body[data-aos-delay="2000"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2000"].aos-animate,body[data-aos-delay="2000"] [data-aos].aos-animate{transition-delay:2s}[data-aos][data-aos][data-aos-duration="2050"],body[data-aos-duration="2050"] [data-aos]{transition-duration:2.05s}[data-aos][data-aos][data-aos-delay="2050"],body[data-aos-delay="2050"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2050"].aos-animate,body[data-aos-delay="2050"] [data-aos].aos-animate{transition-delay:2.05s}[data-aos][data-aos][data-aos-duration="2100"],body[data-aos-duration="2100"] [data-aos]{transition-duration:2.1s}[data-aos][data-aos][data-aos-delay="2100"],body[data-aos-delay="2100"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2100"].aos-animate,body[data-aos-delay="2100"] [data-aos].aos-animate{transition-delay:2.1s}[data-aos][data-aos][data-aos-duration="2150"],body[data-aos-duration="2150"] [data-aos]{transition-duration:2.15s}[data-aos][data-aos][data-aos-delay="2150"],body[data-aos-delay="2150"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2150"].aos-animate,body[data-aos-delay="2150"] [data-aos].aos-animate{transition-delay:2.15s}[data-aos][data-aos][data-aos-duration="2200"],body[data-aos-duration="2200"] [data-aos]{transition-duration:2.2s}[data-aos][data-aos][data-aos-delay="2200"],body[data-aos-delay="2200"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2200"].aos-animate,body[data-aos-delay="2200"] [data-aos].aos-animate{transition-delay:2.2s}[data-aos][data-aos][data-aos-duration="2250"],body[data-aos-duration="2250"] [data-aos]{transition-duration:2.25s}[data-aos][data-aos][data-aos-delay="2250"],body[data-aos-delay="2250"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2250"].aos-animate,body[data-aos-delay="2250"] [data-aos].aos-animate{transition-delay:2.25s}[data-aos][data-aos][data-aos-duration="2300"],body[data-aos-duration="2300"] [data-aos]{transition-duration:2.3s}[data-aos][data-aos][data-aos-delay="2300"],body[data-aos-delay="2300"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2300"].aos-animate,body[data-aos-delay="2300"] [data-aos].aos-animate{transition-delay:2.3s}[data-aos][data-aos][data-aos-duration="2350"],body[data-aos-duration="2350"] [data-aos]{transition-duration:2.35s}[data-aos][data-aos][data-aos-delay="2350"],body[data-aos-delay="2350"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2350"].aos-animate,body[data-aos-delay="2350"] [data-aos].aos-animate{transition-delay:2.35s}[data-aos][data-aos][data-aos-duration="2400"],body[data-aos-duration="2400"] [data-aos]{transition-duration:2.4s}[data-aos][data-aos][data-aos-delay="2400"],body[data-aos-delay="2400"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2400"].aos-animate,body[data-aos-delay="2400"] [data-aos].aos-animate{transition-delay:2.4s}[data-aos][data-aos][data-aos-duration="2450"],body[data-aos-duration="2450"] [data-aos]{transition-duration:2.45s}[data-aos][data-aos][data-aos-delay="2450"],body[data-aos-delay="2450"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2450"].aos-animate,body[data-aos-delay="2450"] [data-aos].aos-animate{transition-delay:2.45s}[data-aos][data-aos][data-aos-duration="2500"],body[data-aos-duration="2500"] [data-aos]{transition-duration:2.5s}[data-aos][data-aos][data-aos-delay="2500"],body[data-aos-delay="2500"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2500"].aos-animate,body[data-aos-delay="2500"] [data-aos].aos-animate{transition-delay:2.5s}[data-aos][data-aos][data-aos-duration="2550"],body[data-aos-duration="2550"] [data-aos]{transition-duration:2.55s}[data-aos][data-aos][data-aos-delay="2550"],body[data-aos-delay="2550"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2550"].aos-animate,body[data-aos-delay="2550"] [data-aos].aos-animate{transition-delay:2.55s}[data-aos][data-aos][data-aos-duration="2600"],body[data-aos-duration="2600"] [data-aos]{transition-duration:2.6s}[data-aos][data-aos][data-aos-delay="2600"],body[data-aos-delay="2600"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2600"].aos-animate,body[data-aos-delay="2600"] [data-aos].aos-animate{transition-delay:2.6s}[data-aos][data-aos][data-aos-duration="2650"],body[data-aos-duration="2650"] [data-aos]{transition-duration:2.65s}[data-aos][data-aos][data-aos-delay="2650"],body[data-aos-delay="2650"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2650"].aos-animate,body[data-aos-delay="2650"] [data-aos].aos-animate{transition-delay:2.65s}[data-aos][data-aos][data-aos-duration="2700"],body[data-aos-duration="2700"] [data-aos]{transition-duration:2.7s}[data-aos][data-aos][data-aos-delay="2700"],body[data-aos-delay="2700"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2700"].aos-animate,body[data-aos-delay="2700"] [data-aos].aos-animate{transition-delay:2.7s}[data-aos][data-aos][data-aos-duration="2750"],body[data-aos-duration="2750"] [data-aos]{transition-duration:2.75s}[data-aos][data-aos][data-aos-delay="2750"],body[data-aos-delay="2750"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2750"].aos-animate,body[data-aos-delay="2750"] [data-aos].aos-animate{transition-delay:2.75s}[data-aos][data-aos][data-aos-duration="2800"],body[data-aos-duration="2800"] [data-aos]{transition-duration:2.8s}[data-aos][data-aos][data-aos-delay="2800"],body[data-aos-delay="2800"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2800"].aos-animate,body[data-aos-delay="2800"] [data-aos].aos-animate{transition-delay:2.8s}[data-aos][data-aos][data-aos-duration="2850"],body[data-aos-duration="2850"] [data-aos]{transition-duration:2.85s}[data-aos][data-aos][data-aos-delay="2850"],body[data-aos-delay="2850"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2850"].aos-animate,body[data-aos-delay="2850"] [data-aos].aos-animate{transition-delay:2.85s}[data-aos][data-aos][data-aos-duration="2900"],body[data-aos-duration="2900"] [data-aos]{transition-duration:2.9s}[data-aos][data-aos][data-aos-delay="2900"],body[data-aos-delay="2900"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2900"].aos-animate,body[data-aos-delay="2900"] [data-aos].aos-animate{transition-delay:2.9s}[data-aos][data-aos][data-aos-duration="2950"],body[data-aos-duration="2950"] [data-aos]{transition-duration:2.95s}[data-aos][data-aos][data-aos-delay="2950"],body[data-aos-delay="2950"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="2950"].aos-animate,body[data-aos-delay="2950"] [data-aos].aos-animate{transition-delay:2.95s}[data-aos][data-aos][data-aos-duration="3000"],body[data-aos-duration="3000"] [data-aos]{transition-duration:3s}[data-aos][data-aos][data-aos-delay="3000"],body[data-aos-delay="3000"] [data-aos]{transition-delay:0}[data-aos][data-aos][data-aos-delay="3000"].aos-animate,body[data-aos-delay="3000"] [data-aos].aos-animate{transition-delay:3s}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-aos][data-aos-easing=ease-in],body[data-aos-easing=ease-in] [data-aos]{transition-timing-function:ease-in}[data-aos][data-aos][data-aos-easing=ease-out],body[data-aos-easing=ease-out] [data-aos]{transition-timing-function:ease-out}[data-aos][data-aos][data-aos-easing=ease-in-out],body[data-aos-easing=ease-in-out] [data-aos]{transition-timing-function:ease-in-out}[data-aos][data-aos][data-aos-easing=ease-in-back],body[data-aos-easing=ease-in-back] [data-aos]{transition-timing-function:cubic-bezier(.6,-.28,.735,.045)}[data-aos][data-aos][data-aos-easing=ease-out-back],body[data-aos-easing=ease-out-back] [data-aos]{transition-timing-function:cubic-bezier(.175,.885,.32,1.275)}[data-aos][data-aos][data-aos-easing=ease-in-out-back],body[data-aos-easing=ease-in-out-back] [data-aos]{transition-timing-function:cubic-bezier(.68,-.55,.265,1.55)}[data-aos][data-aos][data-aos-easing=ease-in-sine],body[data-aos-easing=ease-in-sine] [data-aos]{transition-timing-function:cubic-bezier(.47,0,.745,.715)}[data-aos][data-aos][data-aos-easing=ease-out-sine],body[data-aos-easing=ease-out-sine] [data-aos]{transition-timing-function:cubic-bezier(.39,.575,.565,1)}[data-aos][data-aos][data-aos-easing=ease-in-out-sine],body[data-aos-easing=ease-in-out-sine] [data-aos]{transition-timing-function:cubic-bezier(.445,.05,.55,.95)}[data-aos][data-aos][data-aos-easing=ease-in-quad],body[data-aos-easing=ease-in-quad] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-quad],body[data-aos-easing=ease-out-quad] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-quad],body[data-aos-easing=ease-in-out-quad] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos][data-aos][data-aos-easing=ease-in-cubic],body[data-aos-easing=ease-in-cubic] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-cubic],body[data-aos-easing=ease-out-cubic] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-cubic],body[data-aos-easing=ease-in-out-cubic] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos][data-aos][data-aos-easing=ease-in-quart],body[data-aos-easing=ease-in-quart] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-quart],body[data-aos-easing=ease-out-quart] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-quart],body[data-aos-easing=ease-in-out-quart] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos^=fade][data-aos^=fade]{opacity:0;transition-property:opacity,transform}[data-aos^=fade][data-aos^=fade].aos-animate{opacity:1;transform:translateZ(0)}[data-aos=fade-up]{transform:translate3d(0,100px,0)}[data-aos=fade-down]{transform:translate3d(0,-100px,0)}[data-aos=fade-right]{transform:translate3d(-100px,0,0)}[data-aos=fade-left]{transform:translate3d(100px,0,0)}[data-aos=fade-up-right]{transform:translate3d(-100px,100px,0)}[data-aos=fade-up-left]{transform:translate3d(100px,100px,0)}[data-aos=fade-down-right]{transform:translate3d(-100px,-100px,0)}[data-aos=fade-down-left]{transform:translate3d(100px,-100px,0)}[data-aos^=zoom][data-aos^=zoom]{opacity:0;transition-property:opacity,transform}[data-aos^=zoom][data-aos^=zoom].aos-animate{opacity:1;transform:translateZ(0) scale(1)}[data-aos=zoom-in]{transform:scale(.6)}[data-aos=zoom-in-up]{transform:translate3d(0,100px,0) scale(.6)}[data-aos=zoom-in-down]{transform:translate3d(0,-100px,0) scale(.6)}[data-aos=zoom-in-right]{transform:translate3d(-100px,0,0) scale(.6)}[data-aos=zoom-in-left]{transform:translate3d(100px,0,0) scale(.6)}[data-aos=zoom-out]{transform:scale(1.2)}[data-aos=zoom-out-up]{transform:translate3d(0,100px,0) scale(1.2)}[data-aos=zoom-out-down]{transform:translate3d(0,-100px,0) scale(1.2)}[data-aos=zoom-out-right]{transform:translate3d(-100px,0,0) scale(1.2)}[data-aos=zoom-out-left]{transform:translate3d(100px,0,0) scale(1.2)}[data-aos^=slide][data-aos^=slide]{transition-property:transform}[data-aos^=slide][data-aos^=slide].aos-animate{transform:translateZ(0)}[data-aos=slide-up]{transform:translate3d(0,100%,0)}[data-aos=slide-down]{transform:translate3d(0,-100%,0)}[data-aos=slide-right]{transform:translate3d(-100%,0,0)}[data-aos=slide-left]{transform:translate3d(100%,0,0)}[data-aos^=flip][data-aos^=flip]{backface-visibility:hidden;transition-property:transform}[data-aos=flip-left]{transform:perspective(2500px) rotateY(-100deg)}[data-aos=flip-left].aos-animate{transform:perspective(2500px) rotateY(0)}[data-aos=flip-right]{transform:perspective(2500px) rotateY(100deg)}[data-aos=flip-right].aos-animate{transform:perspective(2500px) rotateY(0)}[data-aos=flip-up]{transform:perspective(2500px) rotateX(-100deg)}[data-aos=flip-up].aos-animate{transform:perspective(2500px) rotateX(0)}[data-aos=flip-down]{transform:perspective(2500px) rotateX(100deg)}[data-aos=flip-down].aos-animate{transform:perspective(2500px) rotateX(0)}
+.s_delay01s{-webkit-transition-delay:0.1s !important; -o-transition-delay:0.1s !important; -ms-transition-delay:0.1s !important; -moz-transition-delay:0.1s !important; transition-delay:0.1s !important;}
+.s_delay02s{-webkit-transition-delay:0.2s !important; -o-transition-delay:0.2s !important; -ms-transition-delay:0.2s !important; -moz-transition-delay:0.2s !important; transition-delay:0.2s !important;}
+.s_delay03s{-webkit-transition-delay:0.3s !important; -o-transition-delay:0.3s !important; -ms-transition-delay:0.3s !important; -moz-transition-delay:0.3s !important; transition-delay:0.3s !important;}
+.s_delay04s{-webkit-transition-delay:0.4s !important; -o-transition-delay:0.4s !important; -ms-transition-delay:0.4s !important; -moz-transition-delay:0.4s !important; transition-delay:0.4s !important;}
+.s_delay05s{-webkit-transition-delay:0.5s !important; -o-transition-delay:0.5s !important; -ms-transition-delay:0.5s !important; -moz-transition-delay:0.5s !important; transition-delay:0.5s !important;}
+.s_delay06s{-webkit-transition-delay:0.6s !important; -o-transition-delay:0.6s !important; -ms-transition-delay:0.6s !important; -moz-transition-delay:0.6s !important; transition-delay:0.6s !important;}
+.s_delay07s{-webkit-transition-delay:0.7s !important; -o-transition-delay:0.7s !important; -ms-transition-delay:0.7s !important; -moz-transition-delay:0.7s !important; transition-delay:0.7s !important;}
+.s_delay08s{-webkit-transition-delay:0.8s !important; -o-transition-delay:0.8s !important; -ms-transition-delay:0.8s !important; -moz-transition-delay:0.8s !important; transition-delay:0.8s !important;}
+.s_delay09s{-webkit-transition-delay:0.9s !important; -o-transition-delay:0.9s !important; -ms-transition-delay:0.9s !important; -moz-transition-delay:0.9s !important; transition-delay:0.9s !important;}
+.s_delay1s{-webkit-transition-delay:1s !important; -o-transition-delay:1s !important; -ms-transition-delay:1s !important; -moz-transition-delay:1s !important; transition-delay:1s !important;}
+.s_delay1D1s{-webkit-transition-delay:1.1s !important; -o-transition-delay:1.1s !important; -ms-transition-delay:1.1s !important; -moz-transition-delay:1.1s !important; transition-delay:1.1s !important;}
+.s_delay1D3s{-webkit-transition-delay:1.3s !important; -o-transition-delay:1.3s !important; -ms-transition-delay:1.3s !important; -moz-transition-delay:1.3s !important; transition-delay:1.3s !important;}
+.s_delay1D4s{-webkit-transition-delay:1.4s !important; -o-transition-delay:1.4s !important; -ms-transition-delay:1.4s !important; -moz-transition-delay:1.4s !important; transition-delay:1.4s !important;}
+.s_delay1D5s{-webkit-transition-delay:1.5s !important; -o-transition-delay:1.5s !important; -ms-transition-delay:1.5s !important; -moz-transition-delay:1.5s !important; transition-delay:1.5s !important;}
+.s_delay2D1s{-webkit-transition-delay:2.1s !important; -o-transition-delay:2.1s !important; -ms-transition-delay:2.1s !important; -moz-transition-delay:2.1s !important; transition-delay:2.1s !important;}
+.s_delay2D8s{-webkit-transition-delay:2.8s !important; -o-transition-delay:2.8s !important; -ms-transition-delay:2.8s !important; -moz-transition-delay:2.8s !important; transition-delay:2.8s !important;}
+
+@media screen and (max-width:600px){
+[data-aos=fade-up-M]{transform:translate3d(0,100px,0)}
+.M_delay01s{-webkit-transition-delay:0.1s !important; -o-transition-delay:0.1s !important; -ms-transition-delay:0.1s !important; -moz-transition-delay:0.1s !important; transition-delay:0.1s !important;}
+.M_delay02s{-webkit-transition-delay:0.2s !important; -o-transition-delay:0.2s !important; -ms-transition-delay:0.2s !important; -moz-transition-delay:0.2s !important; transition-delay:0.2s !important;}
+.M_delay03s{-webkit-transition-delay:0.3s !important; -o-transition-delay:0.3s !important; -ms-transition-delay:0.3s !important; -moz-transition-delay:0.3s !important; transition-delay:0.3s !important;}
+.M_delay04s{-webkit-transition-delay:0.4s !important; -o-transition-delay:0.4s !important; -ms-transition-delay:0.4s !important; -moz-transition-delay:0.4s !important; transition-delay:0.4s !important;}
+.M_delay05s{-webkit-transition-delay:0.5s !important; -o-transition-delay:0.5s !important; -ms-transition-delay:0.5s !important; -moz-transition-delay:0.5s !important; transition-delay:0.5s !important;}
+}
+
+@media screen and (min-width:601px){
+	[data-aos=fade-up-M]{opacity:1 !important;}
+}
+
+.delay01{animation-delay:0.1s; -webkit-animation-delay:0.1s;}
+.delay02{animation-delay:0.2s; -webkit-animation-delay:0.2s;}
+.delay03{animation-delay:0.3s; -webkit-animation-delay:0.3s;}
+.delay04{animation-delay:0.4s; -webkit-animation-delay:0.4s;}
+.delay05{animation-delay:0.5s; -webkit-animation-delay:0.5s;}
+.delay06{animation-delay:0.6s; -webkit-animation-delay:0.6s;}
+.delay07{animation-delay:0.7s; -webkit-animation-delay:0.7s;}
+.delay08{animation-delay:0.8s; -webkit-animation-delay:0.8s;}
+.delay09{animation-delay:0.9s; -webkit-animation-delay:0.9s;}
+.delay1{animation-delay:1s; -webkit-animation-delay:1s;}
+.delay1D1{animation-delay:1.1s; -webkit-animation-delay:1.1s;}
+.delay1D2{animation-delay:1.2s; -webkit-animation-delay:1.2s;}
+.delay1D3{animation-delay:1.3s; -webkit-animation-delay:1.3s;}
+.delay1D4{animation-delay:1.4s; -webkit-animation-delay:1.4s;}
+.delay1D5{animation-delay:1.5s; -webkit-animation-delay:1.5s;}
+.delay1D6{animation-delay:1.6s; -webkit-animation-delay:1.6s;}
+.delay1D7{animation-delay:1.7s; -webkit-animation-delay:1.7s;}
+.delay1D8{animation-delay:1.8s; -webkit-animation-delay:1.8s;}
+.delay1D9{animation-delay:1.9s; -webkit-animation-delay:1.9s;}
+.delay2{animation-delay:2s; -webkit-animation-delay:2s;}
+.delay2D1{animation-delay:2.1s; -webkit-animation-delay:2.1s;}
+.delay2D2{animation-delay:2.2s; -webkit-animation-delay:2.2s;}
+.delay2D8{animation-delay:2.8s; -webkit-animation-delay:2.8s;}
+
+.delay3{animation-delay:3s; -webkit-animation-delay:3s;}
+.delay4{animation-delay:4s; -webkit-animation-delay:4s;}
+
+@media (max-width:600px){
+	.delay01,
+	.delay02,
+	.delay03,
+	.delay04,
+	.delay05,
+	.delay06,
+	.delay07,
+	.delay08,
+	.delay09,
+	.delay10,
+	.delay11{animation-delay:0s; -webkit-animation-delay:0s;}
+}
+
+

@@ -1,0 +1,20 @@
+/*네이버톡톡*/
+div.talk_btn{min-width: 60px \0/IE9;height: 60px \0/IE9;}
+div.talk_btn:before{width: 54px \0/IE9;height: 54px \0/IE9;}
+
+/*header*/
+div.btn_nav{display:none;}
+header ul.login,.ie header ul.in_nav_login {right:2rem;}
+
+/*이용현황*/
+section.data div.data_content ul strong{color:#7f33e3;}
+section.data div.data_content > ul{overflow:visible;opacity:1!important;transform:translateY(0)scale(1);}
+
+/*솔루션*/
+.tab_con .in_tab:nth-child(1){display:block;}
+
+/*b_product*/
+.grid {position:absolute\0/IE9;right: -500px \0/IE9;top: -10% \0/IE9;margin-left: 800px \0/IE9;}
+.isolayer--deco1 .grid__link div.layer{width: 250px \0/IE9;height: 100px \0/IE9;}
+.isolayer--deco1 .grid__item{float: left\0/IE9;width: 300px \0/IE9;height:150px \0/IE9;margin-bottom: 15px \0/IE9;}
+.isolayer--deco1 .grid__item:nth-child(2) {margin-top: 0px\0/IE9;}
