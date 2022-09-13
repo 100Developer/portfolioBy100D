@@ -7,7 +7,7 @@ video {min-width: 100%;}*/
 html{ font-size:16px !important;}
 section.index01 img.cont01_img{width:50%; position:absolute; top:-20%; right:0; -webkit-animation-duration: 3s; animation-duration: 3s;}
 
-section.index02 img.cont02_img{width:50%; position:absolute; top:-20%; left:0;}
+section.index02 img.cont02_img{width:50%; position:absolute; top:-5%; left:0;}
 
 }
 

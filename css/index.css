@@ -359,7 +359,7 @@ section.index01 div.cont01_txt h4{
 section.index01 div.cont01_txt a{display:inline-block;   width:auto; height:auto; padding: 1.5rem 2.5rem; text-align: center; font-size: 1.2rem; margin-top: 3rem; line-height: 1.2rem; border-radius: 50px; background: linear-gradient(145deg, #e6e6e6, #ffffff);box-shadow: 30px 30px 60px #d9d9d9, -30px -30px 60px #ffffff;}
 section.index01 img.cont01_img{width:50%; position:absolute; top:0; right:0; -webkit-animation-duration: 3s; animation-duration: 3s;}
 
-section.index02{position:relative; width:100%; overflow-y: hidden; height:705px; background:#fff;}
+section.index02{position:relative; width:100%; overflow-y: hidden; height:auto; padding-bottom: 3rem; background:#fff;}
 section.index02 img.cont02_img{width:50%; position:absolute; top:0; left:0;}
 section.index02 div.cont02_txt{ width:50%; text-align:left; position:relative; padding-left:2rem; float:right}
 section.index02 div.cont02_txt h2{color:#e6e2e7; margin-left: -0.7rem; font-family: 'Montserrat_B' , sans-serif; letter-spacing: -10px; font-size:7rem;}
