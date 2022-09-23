@@ -34,7 +34,7 @@ div.menu_con div ul.lang{margin-right:2rem;}
 div.menu_list > div{width:100%; height:100%; padding:4rem; background: linear-gradient(-45deg, #0bcbdd, #159cda,#123a8c, #b333e3);background-size:300% 300%; opacity:0.97; animation:AnimationName 6s infinite;}
 div.menu_list div div.depth{width:100%; height:auto; border-bottom:1px solid rgba(255, 255, 255, 0.5); margin-bottom:1rem; padding-bottom:1rem;}
 div.menu_list div div.depth:last-child{margin-bottom:0;}
-div.menu_list div div.depth > p{padding:1rem 0 ; font-size:1.42rem; color:#fff; font-family:"NotoKr_B", sans-serif; letter-spacing:0.1rem;}
+div.menu_list div div.depth > p{padding:1rem 0 ; font-size:1.42rem; color:#fff;  letter-spacing:0.1rem;}
 div.menu_list div div.depth ul li{display:inline-block; margin-right:2rem;}
 div.menu_list div div.depth ul li:last-child{margin-right:0;}
 div.menu_list div div.depth ul li a{position:relative; display:block; padding:0.5rem 0; font-size:1rem; color:rgba(255, 255, 255, 0.8); letter-spacing:0.1rem; -ms-transition:all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1); -moz-transition:all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1); -o-transition:all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1); -webkit-transition:all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1); transition:all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);}
@@ -332,11 +332,11 @@ section.data div.data_content ul p{font-size: 1.143rem;letter-spacing: -0.036rem
 }
 
 
-.en_txt_B{font-family: 'Montserrat' , sans-serif; font-weight: 700;}
+.en_txt_B{font-family: 'Montserrat', sans-serif; font-weight: 700;}
 
-.en_txt_M{font-family: 'Montserrat' , sans-serif; font-weight: 500;}
+.en_txt_M{font-family: 'Montserrat', sans-serif; font-weight: 500;}
 
-.en_txt_L{font-family: 'Montserrat' , sans-serif; font-weight: 300;}
+.en_txt_L{font-family: 'Montserrat', sans-serif; font-weight: 300;}
 
 /* index 시작*/
 section.index01{position:relative; width:100%; overflow: hidden; height:650px; background:#fff;}
@@ -362,7 +362,7 @@ section.index01 img.cont01_img{width:50%; position:absolute; top:0; right:0; -we
 section.index02{position:relative; width:100%; overflow-y: hidden; height:auto; padding-bottom: 3rem; background:#fff;}
 section.index02 img.cont02_img{width:50%; position:absolute; top:0; left:0;}
 section.index02 div.cont02_txt{ width:50%; text-align:left; position:relative; padding-left:2rem; float:right}
-section.index02 div.cont02_txt h2{color:#e6e2e7; margin-left: -0.7rem; font-family: 'Montserrat' , sans-serif; font-weight: 700; letter-spacing: -10px; font-size:7rem;}
+section.index02 div.cont02_txt h2{color:#e6e2e7; margin-left: -0.7rem; font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: -10px; font-size:7rem;}
 section.index02 div.cont02_txt h3{color:#bcbcbc; font-size:1rem; line-height: 2.2rem; letter-spacing: 1px; float:left; width:100%; display: block; margin-top:2rem;}
 section.index02 div.cont02_txt h3 b{color:#a5a4a4}
 section.index02 div.cont02_txt h4{color:#6e6e6e; font-weight:normal; font-size:0.9rem; line-height: 2rem; letter-spacing: 1px; float:left; width:100%;display: inline-block;border-left: 2px solid #6e6e6e;padding-left: 1rem;}
