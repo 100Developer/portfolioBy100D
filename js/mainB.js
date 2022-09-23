@@ -12,7 +12,7 @@ $(document).ready(function () {
                 boxShadow: '0 10px 10px 5px rgba(0,0,0,0)'
             });
 
-            $('header > div.logo a').css('background-image', 'url(' + '../img/logo.png' + ')');
+            $('header > div.logo a').css('background-image', 'url(' + './img/logo.png' + ')');
             $('nav.nav01 ul.menu li a.menu_tit').css('color', '#222');
             $('header ul.in_nav_login li a').css({
                 borderColor: '#fff',
@@ -26,7 +26,7 @@ $(document).ready(function () {
                     background:'#fff',
                     boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                 });
-                $('header > div.logo a').css('background-image', 'url(' + '../img/logo.png' + ')');
+                $('header > div.logo a').css('background-image', 'url(' + './img/logo.png' + ')');
                 $('nav.nav01 ul.menu li a.menu_tit').css('color', '#222');
                 $('header ul.in_nav_login li a').css({
                     borderColor: '#000',
@@ -39,7 +39,7 @@ $(document).ready(function () {
                     boxShadow: '0 10px 10px 5px rgba(0,0,0,0)'
                 });
 
-                $('header > div.logo a').css('background-image', 'url(' + '../img/logo.png' + ')');
+                $('header > div.logo a').css('background-image', 'url(' + './img/logo.png' + ')');
                 $('nav.nav01 ul.menu li a.menu_tit').css('color', '#222');
                 $('header ul.in_nav_login li a').css({
                     borderColor: '#fff',
@@ -56,7 +56,7 @@ $(document).ready(function () {
                 background:'#fff',
                 boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
             });
-            $('header > div.logo a').css('background-image', 'url(' + '../img/logo.png' + ')');
+            $('header > div.logo a').css('background-image', 'url(' + './img/logo.png' + ')');
             $('nav.nav01 ul.menu li a.menu_tit').css('color', '#222');
             $('header ul.in_nav_login li a').css({
                 borderColor: '#000',
@@ -69,7 +69,7 @@ $(document).ready(function () {
                     background:'#fff',
                     boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                 });
-                $('header > div.logo a').css('background-image', 'url(' + '../img/logo.png' + ')');
+                $('header > div.logo a').css('background-image', 'url(' + './img/logo.png' + ')');
                 $('nav.nav01 ul.menu li a.menu_tit').css('color', '#222');
                 $('header ul.in_nav_login li a').css({
                     borderColor: '#000',
