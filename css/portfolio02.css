@@ -4,7 +4,7 @@ body{background:#f5f5f5; overflow-x:hidden;}
 
 
 
-section.contents h1.title{position:relative; background:url("/fro_end/img/D5100_junguniv_icon_tit.png") 0 center no-repeat; background-size:auto 50%; padding:4rem; margin-top:2rem;  margin-bottom:0; background-position-x:center;}
+/* section.contents h1.title{position:relative; background:url("/fro_end/img/D5100_junguniv_icon_tit.png") 0 center no-repeat; background-size:auto 50%; padding:4rem; margin-top:2rem;  margin-bottom:0; background-position-x:center;} */
 section.contents h1.title:after{width:100%;}
 
 section.contents h1.title:after{ width:100%;  z-index:1;}

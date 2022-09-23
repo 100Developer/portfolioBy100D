@@ -16,7 +16,7 @@ div.top div.top_01 div.ic_pm div.minus{border:1px solid #2392ee;}
 div.top div.top_01 div.ic_pm div.minus:before{background:#2392ee;}
 div.top div.top_01 div.ic_pm div.minus:after{display:none;}
 
-div.top div.top_02{width:50%; height:auto; margin:0 auto; padding:3.5rem 0; background:url("/fro_end/img/D4000_title_bg.png") center no-repeat; background-size:35%; text-align:center;}
+/* div.top div.top_02{width:50%; height:auto; margin:0 auto; padding:3.5rem 0; background:url("/fro_end/img/D4000_title_bg.png") center no-repeat; background-size:35%; text-align:center;} */
 div.top div.top_02 div.title{margin-bottom:1.5rem; color:#e5e5e5; font-size:3rem; letter-spacing:8px;}
 div.top div.top_02 div.title_eng{color:#a6a3c0; font-size:1.8rem; letter-spacing:8px;}
 
