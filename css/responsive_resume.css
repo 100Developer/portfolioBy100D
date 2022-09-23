@@ -365,7 +365,7 @@ video {min-width: 100%;}*/
     }
 
     .cd-slider div.slider01 {
-        background-image: url('/fro_end/img/cont01_img.png');
+        background-image: url('../img/cont01_img.png');
         background-size: 1000px auto;
         background-position: center;
         position: relative;

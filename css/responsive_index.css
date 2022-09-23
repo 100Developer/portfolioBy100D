@@ -95,13 +95,13 @@ section.index02 div.cont02_txt h4{color:#6e6e6e; font-weight:normal; font-size:0
     height: 410px;
     overflow: hidden;
 }
-.cd-slider div.slider01{ background-image:url('/fro_end/img/cont01_img.png'); background-size: 1000px auto; background-position:center; position: relative;}
+.cd-slider div.slider01{ background-image:url('../img/cont01_img.png'); background-size: 1000px auto; background-position:center; position: relative;}
 .cd-slider div.slider01 img.img01{position: absolute; top: 3rem; right: 13rem; width:700px; opacity: 1;}
 
 .cd-slider div.slider02{ position: relative;}
 .cd-slider div.slider02 img.img01{position: absolute; top: 3rem; right: 13rem; width:700px; opacity: 1;}
 
-.cd-slider div.slider03{ background-image:url('/fro_end/img/con03_txt_bg01.png')}
+.cd-slider div.slider03{ background-image:url('../img/con03_txt_bg01.png')}
 .cd-slider div.slider03 img.img01{position: absolute;top: -10%;left: 30.8%; width: 700px; z-index:2;}
 
 .cd-slider div.slider03 iframe.video{position: absolute; top: 11%; left: 40.5%; width:500px; height:280px; z-index:1;}
