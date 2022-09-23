@@ -61,7 +61,7 @@ font-family: 'NanumSquare_RR';
 src: url('../fonts/NanumSquare_RR.eot'); 
 src: url('../fonts/NanumSquare_RR.eot?#iefix') format('embedded-opentype'),
     url('../fonts/NanumSquare_RR.woff') format('woff'),
-    url('../fonts/NanumSquare_RR.ttf') format('truetype'),
+    url('../fonts/NanumSquare_RR.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
@@ -71,7 +71,7 @@ font-family: 'NanumSquare_RB';
 src: url('../fonts/NanumSquare_RB.eot'); 
 src: url('../fonts/NanumSquare_RB.eot?#iefix') format('embedded-opentype'),
     url('../fonts/NanumSquare_RB.woff') format('woff'),
-    url('../fonts/NanumSquare_RB.ttf') format('truetype'),
+    url('../fonts/NanumSquare_RB.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }
@@ -81,7 +81,7 @@ font-family: 'NanumSquare_REB';
 src: url('../fonts/NanumSquare_REB.eot'); 
 src: url('../fonts/NanumSquare_REB.eot?#iefix') format('embedded-opentype'),
     url('../fonts/NanumSquare_REB.woff') format('woff'),
-    url('../fonts/NanumSquare_REB.ttf') format('truetype'),
+    url('../fonts/NanumSquare_REB.ttf') format('truetype');
 font-weight: normal;
 font-style: normal;
 }

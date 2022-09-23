@@ -1,5 +1,5 @@
 /*header style*/
-header.cf{position: fixed;  top:0px;width:100%;max-height:4.5rem;background:;z-index: 9;-webkit-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;-moz-transition: all 0.3s;transition:all 0.3s;}
+header.cf{position: fixed;  top:0px;width:100%;max-height:4.5rem; z-index: 9;-webkit-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;-moz-transition: all 0.3s;transition:all 0.3s;}
 header > div.logo{position: absolute;top: 0;left: 0;width: 15rem;height: 4.5rem;padding: 1rem 0;z-index: 4;}
 header > div.logo a{display: block;width: 100%;height: 100%;background: url(../img/logo.png) center no-repeat;background-size: 35%;padding-top: 2.5rem;}
 
@@ -332,15 +332,15 @@ section.data div.data_content ul p{font-size: 1.143rem;letter-spacing: -0.036rem
 }
 
 
-.en_txt_B{font-family: 'Montserrat_B' , sans-serif;}
+.en_txt_B{font-family: 'Montserrat' , sans-serif; font-weight: 700;}
 
-.en_txt_M{font-family: 'Montserrat_M' , sans-serif;}
+.en_txt_M{font-family: 'Montserrat' , sans-serif; font-weight: 500;}
 
-.en_txt_L{font-family: 'Montserrat_L' , sans-serif;}
+.en_txt_L{font-family: 'Montserrat' , sans-serif; font-weight: 300;}
 
 /* index 시작*/
 section.index01{position:relative; width:100%; overflow: hidden; height:650px; background:#fff;}
-section.index01 h1.vertical-text-2{   -ms-transform: rotate(90deg);-moz-transform: rotate(90deg);-webkit-transform: rotate(90deg);transform: rotate(90deg);-ms-transform-origin: left top;-moz-transform-origin: left top;-webkit-transform-origin: left top;transform-origin: left bottom;font-size: 18rem;color: #e6e2e7;letter-spacing: -30px;text-align: left;font-family: 'Montserrat_B' , sans-serif;left: -7rem;bottom: 37rem;position: absolute;text-transform: uppercase;float: left;}
+section.index01 h1.vertical-text-2{   -ms-transform: rotate(90deg);-moz-transform: rotate(90deg);-webkit-transform: rotate(90deg);transform: rotate(90deg);-ms-transform-origin: left top;-moz-transform-origin: left top;-webkit-transform-origin: left top;transform-origin: left bottom;font-size: 18rem;color: #e6e2e7;letter-spacing: -30px;text-align: left;font-family: 'Montserrat' , sans-serif; font-weight:700;  left: -7rem;bottom: 37rem;position: absolute;text-transform: uppercase;float: left;}
 section.index01 div.cont01_txt{position: relative; width:50%; float: left; padding-top:10%; padding-left:13%;}
 section.index01 div.cont01_txt h2{color:#bcbcbc; font-size:1rem; float:left; width:100%; display: block;}
 section.index01 div.cont01_txt h3{color:#373a36; font-size:3rem; float:left; width:100%; display: block; line-height: 5rem; letter-spacing: 7px;}
@@ -362,7 +362,7 @@ section.index01 img.cont01_img{width:50%; position:absolute; top:0; right:0; -we
 section.index02{position:relative; width:100%; overflow-y: hidden; height:auto; padding-bottom: 3rem; background:#fff;}
 section.index02 img.cont02_img{width:50%; position:absolute; top:0; left:0;}
 section.index02 div.cont02_txt{ width:50%; text-align:left; position:relative; padding-left:2rem; float:right}
-section.index02 div.cont02_txt h2{color:#e6e2e7; margin-left: -0.7rem; font-family: 'Montserrat_B' , sans-serif; letter-spacing: -10px; font-size:7rem;}
+section.index02 div.cont02_txt h2{color:#e6e2e7; margin-left: -0.7rem; font-family: 'Montserrat' , sans-serif; font-weight: 700; letter-spacing: -10px; font-size:7rem;}
 section.index02 div.cont02_txt h3{color:#bcbcbc; font-size:1rem; line-height: 2.2rem; letter-spacing: 1px; float:left; width:100%; display: block; margin-top:2rem;}
 section.index02 div.cont02_txt h3 b{color:#a5a4a4}
 section.index02 div.cont02_txt h4{color:#6e6e6e; font-weight:normal; font-size:0.9rem; line-height: 2rem; letter-spacing: 1px; float:left; width:100%;display: inline-block;border-left: 2px solid #6e6e6e;padding-left: 1rem;}
