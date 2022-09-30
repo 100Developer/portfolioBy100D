@@ -210,12 +210,12 @@ video {min-width: 100%;}*/
     color: #e6e2e7;
     letter-spacing: -19px;
     text-align: left;
-    font-family: 'Montserrat_B', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     left: -5rem;
     bottom: 31rem;
     color: #e6e2e7;
     text-align: left;
-    font-family: 'Montserrat_B', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     text-transform: uppercase;
     float: left;
@@ -242,7 +242,7 @@ video {min-width: 100%;}*/
     position: relative;
     width: 100%;
     overflow-y: hidden;
-    height: 480px;
+    height: auto;
     background: url('../img/portrait02_bg.png') repeat-y;
     background-size: 40%;
   }
@@ -263,7 +263,7 @@ video {min-width: 100%;}*/
   section.index02 div.cont02_txt h2 {
     color: #e6e2e7;
     margin-left: -0.7rem;
-    font-family: 'Montserrat_B', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: -10px;
     font-size: 7rem;
   }
@@ -727,7 +727,7 @@ video {min-width: 100%;}*/
   section.index02 div.cont02_txt h2 {
     color: #e6e2e7;
     margin-left: -0.7rem;
-    font-family: 'Montserrat_B', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: -7px;
     font-size: 6rem;
     line-height: 4rem;
@@ -991,7 +991,7 @@ video {min-width: 100%;}*/
   section.index02 div.cont02_txt h2 {
     color: #e6e2e7;
     margin-left: -0.7rem;
-    font-family: 'Montserrat_B', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: -6px;
     font-size: 5rem;
     margin-top: 1rem;
@@ -1077,7 +1077,7 @@ video {min-width: 100%;}*/
     color: #e6e2e7;
     letter-spacing: -9px;
     text-align: left;
-    font-family: 'Montserrat_B', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     left: -4rem;
     bottom: 45rem;
     position: absolute;
