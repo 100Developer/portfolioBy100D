@@ -308,7 +308,7 @@ video {min-width: 100%;}*/
     overflow: hidden;
   }
   .cd-slider div.slider01 {
-    background-image: url('../img/cont01_img.png');
+    /* background-image: url('../img/cont01_img.png'); */
     background-size: 1000px auto;
     background-position: center;
     position: relative;
@@ -605,7 +605,7 @@ video {min-width: 100%;}*/
     letter-spacing: 0px;
   }
   section.index02 {
-    height: 425px;
+    height: auto;
   }
   .slick-dots {
     bottom: -30px;
